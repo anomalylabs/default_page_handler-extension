@@ -19,7 +19,7 @@
         }
     ],
     "required": {
-        "anomaly/streams-platform": "1.1.*"
+        "anomaly/streams-platform": "1.1.*",
         "anomaly/pages-module": "2.1.*"
     },
     "support": {
