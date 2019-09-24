@@ -29,6 +29,6 @@ class DefaultPageHandlerExtension extends PageHandlerExtension
      */
     public function make(PageInterface $page)
     {
-        $this->dispatch(new MakePage($page));
+        dispatch_now(new MakePage($page));
     }
 }

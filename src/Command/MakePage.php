@@ -7,7 +7,6 @@ use Anomaly\PagesModule\Page\PageContent;
 use Anomaly\PagesModule\Page\PageLoader;
 use Anomaly\PagesModule\Page\PageResponse;
 
-
 /**
  * Class MakePage
  *
@@ -38,9 +37,9 @@ class MakePage
     /**
      * Handle the command.
      *
-     * @param PageLoader     $loader
-     * @param PageContent    $content
-     * @param PageResponse   $response
+     * @param PageLoader $loader
+     * @param PageContent $content
+     * @param PageResponse $response
      * @param PageAuthorizer $authorizer
      * @param PageBreadcrumb $breadcrumb
      */
