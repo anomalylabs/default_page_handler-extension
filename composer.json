@@ -25,5 +25,8 @@
         "psr-4": {
             "Anomaly\\DefaultPageHandlerExtension\\": "src/"
         }
+    },
+    "require": {
+        "anomaly/streams-platform": "^1.8"
     }
 }
